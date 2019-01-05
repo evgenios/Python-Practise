@@ -1,31 +1,12 @@
-import sys
-# print(sys.path.__doc__)
+import os
+import glob
 
-# c = 1
-# print(type(c))
-
-# v = 1.1
-# print(type(v))
-# print(isinstance(v, float))
-# x = 1/2
-# print(type(x))
+os.chdir("/Users/eugen/Documents/Github")
+print(glob.glob("Python Practise/*.py"))
 
 
-# a_list = ['a', 'b', 'c', 'd','e','f','g','h','i']
+a_list = [1,2,3,4,5,6,7]
 
-# print(len(a_list))
+b_list = [elem * 2 for elem in a_list]
 
-# print(a_list.count('a'))
-
-# print(a_list.index('d'))
-
-
-a_set = {1}
-print(type(a_set))
-print(len(a_set))
-
-a_list = ['a', 'b', 'c', 'd','e','f','g','h','i']
-a_set = set(a_list)
-
-
-print(a_set)
+print(b_list)       
