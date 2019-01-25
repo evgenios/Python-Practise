@@ -9,4 +9,5 @@ a_list = [1,2,3,4,5,6,7]
 
 b_list = [elem * 2 for elem in a_list]
 
-print(b_list)       
+print(b_list)
+
